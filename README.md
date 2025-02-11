@@ -1,3 +1,3 @@
 * LICENSE: MIT *
 
-(Check it out)[LICENSE]
+[Check it out](LICENSE)
