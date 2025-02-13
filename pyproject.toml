@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcsllib"
+version = "1.3.post2"
+description = "A developing powerful Minecraft library in Python to host a Minecraft server."
+readme = "README.md"
+authors = [{ name = "Soumalya Das", email = "dassantu8385@gmail.com" }]
+license = { text = "MIT" }
+dependencies = []
+requires-python = ">=3.6"
+
+[tool.setuptools]
+py-modules = ["mcsllib"]

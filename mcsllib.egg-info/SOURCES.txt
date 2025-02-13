@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+mcsllib.py
+pyproject.toml
+mcsllib.egg-info/PKG-INFO
+mcsllib.egg-info/SOURCES.txt
+mcsllib.egg-info/dependency_links.txt
+mcsllib.egg-info/top_level.txt

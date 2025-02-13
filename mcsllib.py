@@ -89,7 +89,7 @@ class LGUIEntity:
         """loads up the gui launcher"""
         
         import sys
-        import mcsl
+        import mcsllib
         import psutil
         from PyQt6.QtWidgets import (
             QApplication, QWidget, QVBoxLayout, QPushButton, QCheckBox,
@@ -122,7 +122,7 @@ class LGUIEntity:
         class ServerLauncherGUI(QWidget):
             def __init__(self):
                 super().__init__()
-                self.server = mcsl.ServerEntity(wm=False)
+                self.server = mcsllib.ServerEntity(wm=False)
                 self.init_ui()
 
             def init_ui(self):
