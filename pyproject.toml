@@ -9,7 +9,7 @@ description = "A developing powerful Minecraft library in Python to host a Minec
 readme = "README.md"
 authors = [{ name = "Soumalya Das", email = "dassantu8385@gmail.com" }]
 license = { text = "MIT" }
-dependencies = []
+dependencies = ["PyQt6", "psutil"]
 requires-python = ">=3.6"
 
 [tool.setuptools]
