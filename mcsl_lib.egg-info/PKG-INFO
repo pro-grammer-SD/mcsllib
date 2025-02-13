@@ -1,4 +1,20 @@
-* MIT License *
+Metadata-Version: 2.1
+Name: mcsl-lib
+Version: 1.3.post3
+Summary: A developing powerful Minecraft library in Python to host a Minecraft server.
+Home-page: https://github.com/pro-grammer-SD/mcsl
+Author: Soumalya Das
+Author-email: dassantu8385@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt6
+Requires-Dist: psutil
+
+# License
+### MIT License
 
 Copyright (c) 2025 Soumalya Das
 
@@ -19,3 +35,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
+
+# Docs
+
+### Coming soon!

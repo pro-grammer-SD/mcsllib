@@ -1,11 +1,14 @@
 from setuptools import setup, find_packages
 
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
 setup(
-    name="mcsl",  # Library name
-    version="1.3-official",      # Version of your library
+    name="mcsl-lib",
+    version="1.3.post3",
     packages=find_packages(),
-    install_requires=["PyQt6","psutil"],  # External dependencies (if any)
-    description="A developing powerful minecraft library in python to host a minecraft server.",
+    install_requires=requirements,
+    description="A developing powerful Minecraft library in Python to host a Minecraft server.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Soumalya Das",
@@ -16,5 +19,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',  # Python version required
+    python_requires='>=3.6',
 )
