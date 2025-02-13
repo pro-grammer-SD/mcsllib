@@ -1,4 +1,4 @@
-<a href="https://github.com/pro-grammer-SD/mcsl">
+<a href="https://github.com/pro-grammer-SD/mcsllib">
     <img alt="Static Badge" src="https://img.shields.io/badge/github-mcsl-lib" style="display: flex;">
 </a>
 <br>
