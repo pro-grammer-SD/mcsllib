@@ -1,3 +1,8 @@
+<a href="https://github.com/pro-grammer-SD/mcsl">
+    <img alt="Static Badge" src="https://img.shields.io/badge/github-mcsl-lib" style="display: flex;">
+</a>
+<br>
+
 # License
 ### MIT License
 
@@ -20,6 +25,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
+
+# Examples
+
+## Code:
+
+```python
+
+import mcsl
+
+server = mcsl.ServerEntity(wm=True)
+
+# suggest papermc
+server.launch(loader_type="papermc", gui=True, min_mem=512, max_mem=2048, online=True, lgui=True)
+
+```
 
 # Docs
 

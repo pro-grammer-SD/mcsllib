@@ -1,10 +1,11 @@
 Metadata-Version: 2.1
 Name: mcsl-lib
-Version: 1.3.post3
+Version: 1.3.post4
 Summary: A developing powerful Minecraft library in Python to host a Minecraft server.
 Home-page: https://github.com/pro-grammer-SD/mcsl
 Author: Soumalya Das
 Author-email: dassantu8385@gmail.com
+License: MIT
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -12,6 +13,11 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 Requires-Dist: PyQt6
 Requires-Dist: psutil
+
+<a href="https://github.com/pro-grammer-SD/mcsl">
+    <img alt="Static Badge" src="https://img.shields.io/badge/github-mcsl-lib" style="display: flex;">
+</a>
+<br>
 
 # License
 ### MIT License
@@ -35,6 +41,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
+
+# Examples
+
+## Code:
+
+```python
+
+import mcsl
+
+server = mcsl.ServerEntity(wm=True)
+
+# suggest papermc
+server.launch(loader_type="papermc", gui=True, min_mem=512, max_mem=2048, online=True, lgui=True)
+
+```
 
 # Docs
 

@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="mcsl-lib",
-    version="1.3.post3",
+    version="1.3.post4",
     packages=find_packages(),
     install_requires=requirements,
     description="A developing powerful Minecraft library in Python to host a Minecraft server.",
@@ -14,6 +14,7 @@ setup(
     author="Soumalya Das",
     author_email="dassantu8385@gmail.com",
     url="https://github.com/pro-grammer-SD/mcsl",
+    license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
