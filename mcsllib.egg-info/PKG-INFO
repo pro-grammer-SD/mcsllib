@@ -1,11 +1,12 @@
 Metadata-Version: 2.2
 Name: mcsllib
-Version: 1.3.post5
+Version: 1.3.post6
 Summary: A developing powerful Minecraft library in Python to host a Minecraft server.
 Author-email: Soumalya Das <dassantu8385@gmail.com>
 License: MIT
-Project-URL: Repository, https://github.com/pro-grammer-SD/mcsllib.git
-Project-URL: Github, https://github.com/pro-grammer-SD/mcsllib
+Project-URL: Homepage, https://github.com/pro-grammer-SD/mcsllib
+Project-URL: Repository, https://github.com/pro-grammer-SD/mcsllib
+Project-URL: Issues, https://github.com/pro-grammer-SD/mcsllib/issues
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 Requires-Dist: PyQt6
